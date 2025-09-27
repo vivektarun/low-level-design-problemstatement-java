@@ -1,4 +1,3 @@
-package solidPrinciple.singleResponsibilityPrinciple;
 
 class Marker {
     String name;
