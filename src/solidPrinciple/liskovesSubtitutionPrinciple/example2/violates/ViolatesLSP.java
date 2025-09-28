@@ -12,7 +12,7 @@ class Vehicle {
 
 class MotorCycle extends Vehicle {
     public String getSpecification() {
-        return "MotorCycle has " + this.getNumberOfWheels() + "Wheels and has engine: " this.hasEngine();
+        return "MotorCycle has " + this.getNumberOfWheels() + "Wheels and has engine: " + this.hasEngine();
     }
 }
 
@@ -37,6 +37,6 @@ class Bicycle extends Vehicle {
 
 public class  ViolatesLSP {
     public static void main(String[] args) {
-
+        System.out.println("hello world");
     }
 }
